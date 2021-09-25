@@ -31,7 +31,7 @@ def hero():
         t = threading.Thread(target=animate)
         t.start()
 
-        long process here
+        #long process here
         time.sleep(20)
         done = True
 
