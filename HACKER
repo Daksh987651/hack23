@@ -83,7 +83,7 @@ def hero():
         clear()
         system(banner)
         print("Weekly members play PARITY")
-        print("Contact me on telegram @tusharma3")
+        print("Contact me on telegram @HACK_RXCE")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -116,7 +116,7 @@ def hero():
             system('figlet Thank you!!')
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
-            sys.exit(" \n \n \n Contact on Telegram @tusharma3")
+            sys.exit(" \n \n \n Contact on Telegram @HACK_RXCE")
             #print(numbers)
 
 if(expirydate>today and playday==today):
@@ -133,7 +133,7 @@ if(expirydate>today and playday==today):
     if (now>First and now<Firstend):
             period=220
             #hero()
-    if(True):
+    if(now>Second and now<Secondend):
             period=299
             banner='figlet RXCE'
             #system(banner)
@@ -145,8 +145,8 @@ if(expirydate>today and playday==today):
     if(now>Third and now<Thirdend):
             period=390
             hero()
-    elif(True):
-            period=299
+    elif(now>Final and now<Finalend):
+            period=410
             hero()
     else:
         banner='figlet RXCE'
