@@ -152,7 +152,7 @@ if(expirydate>today and playday==today):
         banner='figlet RXCE'
         print("Hi!! Thanks for buying the hack")
         print("----------Your play time-----------")
-        #print(playday," 11:00 AM- 11:30 AM")
+        print(playday," 11:00 AM- 11:30 AM")
         print(playday," 02:30 PM- 03:00 PM")
         print(playday," 07:30 PM- 08:00 PM")
         print(playday," 08:30 PM- 09:00 PM")
