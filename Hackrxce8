@@ -50,7 +50,7 @@ def hero():
         t = threading.Thread(target=animate)
         t.start()
 
-        long process here
+        #long process here
         time.sleep(20)
         done = True
 
@@ -83,7 +83,7 @@ def hero():
         clear()
         system(banner)
         print("Weekly members play PARITY")
-        print("Contact me on telegram @tusharma3")
+        print("Contact me on telegram @HACK_RXCE")
         print("Enter ",newperiod," Parity Price :")
         current=input()
         current=int(current)
@@ -117,7 +117,7 @@ def hero():
             print("Play on next specified time!!")
             print("-----------Current Time UP----------")
             sys.exit(" \n \n \n Contact on Telegram @tusharma3")
-            print(numbers)
+            #print(numbers)
 
 if(expirydate>today and playday==today):
     now = datetime.datetime.now()
@@ -133,8 +133,8 @@ if(expirydate>today and playday==today):
     if (now>First and now<Firstend):
             period=220
             hero()
-    if(now>Second and now<Secondend):
-            period=290
+    if(True):
+            period=294
             banner='figlet RXCE'
             system(banner)
             #print("Server Overloading.....")
