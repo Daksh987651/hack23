@@ -37,7 +37,7 @@ def hero():
 
     def chalo1():
         done = False
-        here is the animation
+        #here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
@@ -137,9 +137,9 @@ if(expirydate>today and playday==today):
             period=290
             banner='figlet RXCE'
             system(banner)
-            print("Server Overloading.....")
-            time.sleep(3)
-            print("Please try again later")
+            #print("Server Overloading.....")
+            #time.sleep(3)
+            #print("Please try again later")
             exit()
             hero()
     if(now>Third and now<Thirdend):
