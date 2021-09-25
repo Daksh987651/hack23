@@ -1,5 +1,5 @@
-#!/usr/bin/python
-# -*- coding: UTF-8 -*-
+!/usr/bin/python
+ -*- coding: UTF-8 -*-
 
 from os import system, name
 import itertools
@@ -18,7 +18,7 @@ def hero():
 
     def chalo():
         done = False
-        #here is the animation
+        here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']) :
                 if done:
@@ -31,13 +31,13 @@ def hero():
         t = threading.Thread(target=animate)
         t.start()
 
-        #long process here
+        long process here
         time.sleep(20)
         done = True
 
     def chalo1():
         done = False
-        #here is the animation
+        here is the animation
         def animate():
             for c in itertools.cycle(['|', '/', '-', '\\']):
                 if done:
@@ -50,12 +50,12 @@ def hero():
         t = threading.Thread(target=animate)
         t.start()
 
-        #long process here
+        long process here
         time.sleep(20)
         done = True
 
     def clear():
-        # for windows
+         for windows
         if name == 'nt':
             _ = system('cls')
         # for mac and linux(here, os.name is 'posix')
